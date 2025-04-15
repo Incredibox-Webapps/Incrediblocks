@@ -1,6 +1,3 @@
-// Here all versions are located, the same as app.js but this time its apps.js because all versions info is located in this one file
-// To add more versions, copy the versions.v1 and replace with versions.v2, and the same with others (it support more than 9 versions)
-
 versions.v1 = {
   name: "Template",
   version: "temp01",
@@ -132,8 +129,24 @@ versions.v1 = {
   ],
 };
 
-// versions.v2 = {
-//  name: "New Version",
-// version: "2",
-// date: "2025",
-// ...
+versions.v2 = {
+  name: "Template",
+  version: "temp01",
+  date: "2025",
+  folder: "asset-v2/",
+  looptime: 10434,
+  bpm: 92,
+  totalframe: 500,
+  nbpolo: 7,
+  bonusloopA: false,
+  bonusendloopA: true,
+  colBck: "#0F0F0F",
+  col0: "#919191",
+  col1: "#5f5f5f",
+  col2: "#4b4b4b",
+  col3: "#373737",
+  col4: "#232323",
+  animearray: [
+{name:"1_Exolotl",color:"4baa62",uniqsnd:!0},{name:"2_Azalea Bush",color:"4baa62",uniqsnd:!0},{name:"3_Drip leaves",color:"4baa62",uniqsnd:!0},{name:"4_Lush Vines",color:"4baa62",uniqsnd:!0},{name:"5_Glare",color:"4baa62",uniqsnd:!1},{name:"6_Raw Copper",color:"e45444",uniqsnd:!0},{name:"7_Dripstone",color:"e45444",uniqsnd:!0},{name:"8_Copper Golem",color:"e45444",uniqsnd:!0},{name:"9_Dripstone Brass",color:"e45444",uniqsnd:!1},{name:"10_Caves Ambience",color:"e45444",uniqsnd:!0},{name:"11_Geode Guardian",color:"af81fb",uniqsnd:!0},{name:"12_Crystal Notes",color:"af81fb",uniqsnd:!1},{name:"13_Amethyst Collector",color:"af81fb",uniqsnd:!1},{name:"14_Enderman",color:"af81fb",uniqsnd:!1},{name:"15_Amethyst Statue",color:"af81fb",uniqsnd:!0},{name:"16_Warden",color:"53e3cb",uniqsnd:!1},{name:"17_Survivor",color:"53e3cb",uniqsnd:!1},{name:"18_Soulfire",color:"53e3cb",uniqsnd:!1},{name:"19_Elderly Allay",color:"53e3cb",uniqsnd:!1},{name:"20_Sweden",color:"53e3cb",uniqsnd:!1},],
+  bonusarray: [],
+};
